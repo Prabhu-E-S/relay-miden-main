@@ -19,6 +19,41 @@ __pycache__/
 .pytest_cache/
 .DS_Store
 Thumbs.db
+Desktop.ini
 *.log
+npm-debug.log*
 
-# Add entries appropriate to your chosen language or framework.
+# Test and coverage artifacts
+playwright-report/
+test-results/
+blob-report/
+.nyc_output/
+
+# Build caches and tool metadata
+.vite/
+.cache/
+*.tsbuildinfo
+
+# Local SQLite databases and journals
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+*.sqlite-*
+*.sqlite3-*
+*-journal
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+tmp/
+temp/
+
+# Editor and IDE configurations
+.idea/
+.vscode/
+*.swp
+*.swo
+*.sln
+*.suo
